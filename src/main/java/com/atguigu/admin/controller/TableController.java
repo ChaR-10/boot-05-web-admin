@@ -29,8 +29,8 @@ public class TableController {
      * @return
      */
     @GetMapping("/basic_table")
-    public String basic_table(@RequestParam("a") int a){
-
+    public String basic_table(){
+//@RequestParam(value = "a",required = false) int a
        // int i = 10/0;
         return "table/basic_table";
     }
